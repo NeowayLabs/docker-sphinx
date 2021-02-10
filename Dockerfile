@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.8-slim
 
 # Install make and the necessary sphinx packages
 RUN apt-get update && apt-get install make -y && \
